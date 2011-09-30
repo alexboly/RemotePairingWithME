@@ -2,11 +2,13 @@ package com.TicTacToe;
 
 public class Game {
 
+	private Player _player;
+	
 	public Game(Board board) {
 	}
 
 	public void setFirstPlayer(Player firstPlayer) {
-		
+		_player = firstPlayer;
 	}
 
 	public void playNextMove() {
@@ -14,7 +16,7 @@ public class Game {
 	}
 
 	public Player getWinner() {
-		return null;
+		return _player;
 	}
 
 }
