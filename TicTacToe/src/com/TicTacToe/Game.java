@@ -19,4 +19,15 @@ public class Game {
 		return _player;
 	}
 
+	public void setPlayers(Player firstPlayer, Player secondPlayer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void playNextMove(int i, int j) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
+
