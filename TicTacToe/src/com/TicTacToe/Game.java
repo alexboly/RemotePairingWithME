@@ -20,12 +20,10 @@ public class Game {
 	}
 
 	public void setPlayers(Player firstPlayer, Player secondPlayer) {
-		// TODO Auto-generated method stub
-		
+		this._player = firstPlayer;
 	}
 
 	public void playNextMove(int i, int j) {
-		// TODO Auto-generated method stub
 		
 	}
 
